@@ -1,15 +1,15 @@
 
 7
-java:S1220""Move this file to a named package.8³óìĞâ1
-V
-java:S1854
-"9Remove this useless assignment to local variable "lista".(ÂúŒö8ºóìĞâ1
-^
-java:S1854	"<Remove this useless assignment to local variable "esntrada".( ºŞøüÿÿÿÿ8¼óìĞâ1
-O
-java:S1481	"-Remove this unused "esntrada" local variable.( ºŞøüÿÿÿÿ8ÄóìĞâ1
-G
-java:S1481
-"*Remove this unused "lista" local variable.(ÂúŒö8ÈóìĞâ1
-x
-java:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(°€àâ8ËóìĞâ1
+java:S1220""Move this file to a named package.8Æ°­Òâ1
+G	java:S106"+Replace this use of System.out by a logger.(ãÂ‚8æ°­Òâ1
+G	java:S106"+Replace this use of System.out by a logger.(íÉƒñ8æ°­Òâ1
+L	java:S106"+Replace this use of System.out by a logger.(Óâ•ÿÿÿÿÿ8æ°­Òâ1
+G	java:S106$"+Replace this use of System.out by a logger.(ˆÍ š8è°­Òâ1
+L	java:S106&"+Replace this use of System.out by a logger.(‰€íıÿÿÿÿ8è°­Òâ1
+G	java:S106("+Replace this use of System.out by a logger.(èò¡“8è°­Òâ1
+L	java:S106*"+Replace this use of System.out by a logger.(Õ¦“»ûÿÿÿÿ8é°­Òâ1
+F	java:S106,"+Replace this use of System.out by a logger.(éŸ¸K8é°­Òâ1
+L	java:S106."+Replace this use of System.out by a logger.(µé¿Èıÿÿÿÿ8é°­Òâ1
+L	java:S1061"+Replace this use of System.out by a logger.(™¼åÃüÿÿÿÿ8ê°­Òâ1
+L	java:S1062"+Replace this use of System.out by a logger.(âÑïıÿÿÿÿ8ê°­Òâ1
+G	java:S106="+Replace this use of System.out by a logger.(­˜™Í8ë°­Òâ1

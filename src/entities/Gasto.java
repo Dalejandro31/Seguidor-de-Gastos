@@ -28,13 +28,13 @@ public class Gasto {
         this.id = id;
     }
     public String getNombre() {
-        return nombre;
+        return nombre != null ? nombre.toLowerCase() : null;
     }
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
     public String getDescripcion() {
-        return descripcion;
+        return descripcion != null ? descripcion.toLowerCase(): null;
     }
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
@@ -52,7 +52,7 @@ public class Gasto {
         this.fecha = fecha;
     }
     public String getTipo() {
-        return tipo;
+        return tipo != null ? tipo.toLowerCase() : null;
     }
     public void setTipo(String tipo) {
         this.tipo = tipo;

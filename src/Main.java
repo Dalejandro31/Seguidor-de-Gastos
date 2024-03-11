@@ -1,10 +1,13 @@
 import entities.Gasto;
+import interfaces.GastoFunction;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    public static GastoFunction obtenervalorConIva = (gasto) -> gasto.getValor()*0.19;
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         List<Gasto> lista = new ArrayList<>();
@@ -33,6 +36,7 @@ public class Main {
     public static void inscribirGastos(List<Gasto> lista, Scanner entrada){
         String detener = "";
         int contador = 1;
+
         System.out.println("digite los datos de los gastos que desea ingresar");
         while (!detener.equals("no")){
             System.out.println("Nombre del gasto: ");
@@ -58,8 +62,13 @@ public class Main {
     }
     public static void visualizarGastos(List<Gasto> lista){
         for (Gasto gasto: lista){
-            System.out.println("gasto #"+ gasto.getId()+"\n nombre del gasto: "+gasto.getNombre()+
-                    "\n fecha del  gasto: "+gasto.getFecha());
+            System.out.println("Gasto #" + gasto.getId());
+            System.out.println("Nombre del gasto: " + gasto.getNombre());
+            System.out.println("Valor total: " + gasto.obtenerValorTotal());
+            System.out.println("valor total con iva: "+obtenervalorConIva.apply(gasto));
+            System.out.println("Fecha del gasto: " + gasto.obtenerFecha());
+            System.out.println("Tipo del gasto: "+ gasto.obtenerTipo());
+            System.out.println("---------------------------------------");
         }
     }
 }

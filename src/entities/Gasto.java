@@ -1,6 +1,8 @@
 package entities;
 
-public class Gasto {
+import interfaces.Gastos;
+
+public class Gasto implements Gastos {
     private int id;
     private String nombre;
     private String descripcion;
@@ -58,4 +60,18 @@ public class Gasto {
         this.tipo = tipo;
     }
 
+    @Override
+    public double obtenerValorTotal() {
+        return valor;
+    }
+
+    @Override
+    public String obtenerFecha() {
+        return fecha;
+    }
+
+    @Override
+    public String obtenerTipo() {
+        return tipo;
+    }
 }

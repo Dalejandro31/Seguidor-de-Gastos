@@ -34,3 +34,7 @@ Q.idea/sonarlint/securityhotspotstore/b/0/b08f1ab659fbdd998f45c0def99188f980cc89
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 G
 src/entities/Gasto.java,b\f\bf87eead9ad19976e5ddab8f3a7145add6065753
+J
+src/interfaces/Gastos.java,2\1\21935d67acf1c3287acc934ce103cd1d7d2d46c5
+Q
+!src/interfaces/GastoFunction.java,2\7\277e4e3ecd8a2594307aeca22894cb24fc17e2b6
